@@ -1,0 +1,57 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', sans-serif;
+  background: linear-gradient(to bottom, #e0f7fa, #f1f8e9);
+  color: #2e7d32;
+}
+
+header {
+  background: #388e3c;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  background-image: url('https://www.transparenttextures.com/patterns/dark-wood.png');
+}
+
+nav {
+  background: #66bb6a;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  gap: 25px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  background: #388e3c;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.dino-img {
+  max-width: 100px;
+  display: block;
+  margin: auto;
+}
